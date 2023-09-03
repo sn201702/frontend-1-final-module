@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Poppins:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.card {
+    box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+}
+
+#intro-footer {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #fff;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 23px;
+}
+
+#products-section {
+    background-color: #ECF8FF;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.tags {
+    display: inline-block;
+    margin-right: 6px;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.tag-yellow {
+    background-color: #FFEED8;
+    color: #965400;
+}
+
+.table-top-content {
+    display: inline-block;
+    background-color: #2F80ED;
+    color: #fff;
+    margin-top: -40px;
+}
