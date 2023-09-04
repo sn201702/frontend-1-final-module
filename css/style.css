@@ -16,10 +16,13 @@ body {
     border-radius: 23px;
 }
 
-#products-section {
-    background-color: #ECF8FF;
+#products-section, #brands, #testimonial {
     padding-top: 90px;
     padding-bottom: 90px;
+}
+
+#products-section {
+    background-color: #ECF8FF;
 }
 
 .tags {
