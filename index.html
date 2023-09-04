@@ -1,326 +1,618 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <!-- Stylesheets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <!-- Navbar start -->
     <section>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
-            <div class="container">
-              <a class="navbar-brand mr-auto" href="#">
-                <img src="./images/Menu bar/Final Logo.svg" alt="Logo">
-                <span class="mr-2">AccioJob</span>
-                <img src="./images/Menu bar/NSDC_Logo_in_clear_background 1.png" alt="NSDC">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
+        <div class="container">
+          <a class="navbar-brand mr-auto" href="#">
+            <img src="./images/Menu bar/Final Logo.svg" alt="Logo" />
+            <span class="mr-2">AccioJob</span>
+            <img
+              src="./images/Menu bar/NSDC_Logo_in_clear_background 1.png"
+              alt="NSDC"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse align-right"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses
                 </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse align-right" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Courses
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Course 1</a></li>
-                          <li><a class="dropdown-item" href="#">Course 2</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">AccioJob Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Scholarship Test</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            More
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Course 1</a></li>
-                          <li><a class="dropdown-item" href="#">Course 2</a></li>
-                        </ul>
-                    </li>
-                    <div class="d-flex">
-                        <a href="#" class="btn btn-outline-primary">Login</a>
-                    </div>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Course 1</a></li>
+                  <li><a class="dropdown-item" href="#">Course 2</a></li>
                 </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AccioJob Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Scholarship Test</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Course 1</a></li>
+                  <li><a class="dropdown-item" href="#">Course 2</a></li>
+                </ul>
+              </li>
+              <div class="d-flex">
+                <a href="#" class="btn btn-outline-primary">Login</a>
               </div>
-            </div>
-        </nav>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </section>
     <!-- Navbar end -->
 
     <section id="offers-intro" class="bg-primary text-center text-white">
-        <em class="py-2 d-block">Next batch starts in ⌛ 22 Days, Hurry! </em>
+      <em class="py-2 d-block">Next batch starts in ⌛ 22 Days, Hurry! </em>
     </section>
 
     <section id="intro" class="container">
-        <div class="row py-5">
-            <div class="col-sm-12 col-md-6 col-lg-8">
-                <h1 class="my-4"><em>Launch your career with our <br> <span class="text-primary">Full Stack Developer Courses </span> Courses </em></h1>
-                <p class="my-4">Curriculum designed and taught by Alumni from IIT's & <br> Leading Tech Companies.</p>
-                <div class="card card-body">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="d-flex">
-                                <div class="icon"></div>
-                                <div class="content">
-                                    <strong class="d-block">41 Lakh</strong>
-                                    <small class="d-block">Highest Salary</small>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="d-flex">
-                                <div class="icon"></div>
-                                <div class="content">
-                                    <strong class="d-block">300+</strong>
-                                    <small class="d-block">Partner Companies</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="d-flex">
-                                <div class="icon"></div>
-                                <div class="content">
-                                    <strong class="d-block">100%</strong>
-                                    <small class="d-block">Job Guarantee</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="d-flex">
-                                <div class="icon"></div>
-                                <div class="content">
-                                    <strong class="d-block">8.3 LPA</strong>
-                                    <small class="d-block">Average Salary</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="row py-5">
+        <div class="col-sm-12 col-md-6 col-lg-8">
+          <h1 class="my-4">
+            <em
+              >Launch your career with our <br />
+              <span class="text-primary">Full Stack Developer Courses </span>
+              Courses
+            </em>
+          </h1>
+          <p class="my-4">
+            Curriculum designed and taught by Alumni from IIT's & <br />
+            Leading Tech Companies.
+          </p>
+          <div class="card card-body">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="d-flex">
+                  <div class="icon"></div>
+                  <div class="content">
+                    <strong class="d-block">41 Lakh</strong>
+                    <small class="d-block">Highest Salary</small>
+                  </div>
                 </div>
-
-                <section class="container mt-5">
-                    <span id="intro-footer">Made with 💙 by an AccioJob Student</span>
-                </section>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-                <div class="card card-body text-center intro-form-card">
-                    <h2 class="my-3">Start Attending Live <br> Classes for Free!</h2>
-                    <p class="my-3">Live lectures & Assignments curated by <br> Top Tech Proffesionals</p>
-
-                    <div class="intro-form mt-4">
-                        <form action="" method="post">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">@</span>
-                                <input type="text" class="form-control" placeholder="Samvrant Samantaray" aria-label="Username" aria-describedby="basic-addon1">
-                            </div>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" id="basic-addon1">@</span>
-                                <input type="text" class="form-control" placeholder="Phone Number" aria-label="Username" aria-describedby="basic-addon1">
-                            </div>
-                            <div class="d-grid gap-2 mt-2">
-                                <button class="btn btn-primary btn-lg" type="submit">Apply Now For Free &gt;</button>
-                            </div>
-                        </form>
-
-                        <small class="d-block my-2">By clicking 'Apply now', you agree to our</small>
-                        <a href="#" class="d-block mt-2">Terms & Conditions</a>
-                    </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="d-flex">
+                  <div class="icon"></div>
+                  <div class="content">
+                    <strong class="d-block">300+</strong>
+                    <small class="d-block">Partner Companies</small>
+                  </div>
                 </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="d-flex">
+                  <div class="icon"></div>
+                  <div class="content">
+                    <strong class="d-block">100%</strong>
+                    <small class="d-block">Job Guarantee</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="d-flex">
+                  <div class="icon"></div>
+                  <div class="content">
+                    <strong class="d-block">8.3 LPA</strong>
+                    <small class="d-block">Average Salary</small>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <section class="container mt-5">
+            <span id="intro-footer">Made with 💙 by an AccioJob Student</span>
+          </section>
         </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="card card-body text-center intro-form-card">
+            <h2 class="my-3">
+              Start Attending Live <br />
+              Classes for Free!
+            </h2>
+            <p class="my-3">
+              Live lectures & Assignments curated by <br />
+              Top Tech Proffesionals
+            </p>
+
+            <div class="intro-form mt-4">
+              <form action="" method="post">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Samvrant Samantaray"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">@</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Phone Number"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="d-grid gap-2 mt-2">
+                  <button class="btn btn-primary btn-lg" type="submit">
+                    Apply Now For Free &gt;
+                  </button>
+                </div>
+              </form>
+
+              <small class="d-block my-2"
+                >By clicking 'Apply now', you agree to our</small
+              >
+              <a href="#" class="d-block mt-2">Terms & Conditions</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Products section -->
     <section id="products-section">
-        <div class="container">
-            <p class="text-center mt-3">learn full-stack web development</p>
-            <h3 class="text-center mb-5 text-primary">OUR COURSES</h3>
+      <div class="container">
+        <p class="text-center mt-3">learn full-stack web development</p>
+        <h3 class="text-center mb-5 text-primary">OUR COURSES</h3>
 
-            <div class="row">
-                <div class="col-sm-12 col-lg-6">
-                    <div class="card card-body">
-                        <div class="text-center">
-                            <p class="table-top-content">Ideal For first-time coders</p>
-                            <h4 class="text-center">Beginner</h4>
-                            <div class="d-flex justify-content-center">
-                                <span class="bg-primary tags">
-                                    100% Job Gaurantee
-                                </span>
-                                <span class="bg-primary tags">
-                                    Lifetime Access
-                                </span>
-                            </div>
-                            <p>For you to start their coding journey from scratch</p>
-                        </div>
-
-                        <div class="product-table p-5">
-                            <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td>Placement Starts</td>
-                                    <td>in 4 Months</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Eligibility</td>
-                                    <td>Final year students or Graduates, All degrees</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Duration</td>
-                                    <td>12 Months</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Daily Effort</td>
-                                    <td>5-7 hours </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Next Batch On</td>
-                                    <td>27th Dec 2022</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                        </div>
-
-                        <div class="cta-buttons text-center">
-                            <button type="button" class="btn btn-outline-primary btn-lg">Brochure</button>
-                            <button type="button" class="btn btn-primary btn-lg">Learn More &gt;</button>
-                        </div>
-                    </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-6">
+            <div class="card card-body">
+              <div class="text-center">
+                <p class="table-top-content">Ideal For first-time coders</p>
+                <h4 class="text-center">Beginner</h4>
+                <div class="d-flex justify-content-center">
+                  <span class="bg-primary tags"> 100% Job Gaurantee </span>
+                  <span class="bg-primary tags"> Lifetime Access </span>
                 </div>
+                <p>For you to start their coding journey from scratch</p>
+              </div>
 
-                <div class="col-sm-12 col-lg-6">
-                    <div class="card card-body">
-                        <div class="text-center">
-                            <h4 class="text-center">Intermediate</h4>
-                            <div class="d-flex justify-content-center">
-                                <span class="bg-warning tags tag-yellow">
-                                    Pay After Placement
-                                </span>
-                                <span class="bg-warning tags tag-yellow">
-                                    Lifetime Access
-                                </span>
-                            </div>
-                            <p>For you to start their coding journey from scratch</p>
-                        </div>
+              <div class="product-table p-5">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Placement Starts</td>
+                      <td>in 4 Months</td>
+                    </tr>
+                    <tr>
+                      <td>Eligibility</td>
+                      <td>Final year students or Graduates, All degrees</td>
+                    </tr>
+                    <tr>
+                      <td>Duration</td>
+                      <td>12 Months</td>
+                    </tr>
+                    <tr>
+                      <td>Daily Effort</td>
+                      <td>5-7 hours</td>
+                    </tr>
+                    <tr>
+                      <td>Next Batch On</td>
+                      <td>27th Dec 2022</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
-                        <div class="product-table p-5">
-                            <table class="table">
-                                <tbody>
-                                  <tr>
-                                    <td>Placement Starts</td>
-                                    <td>in 4 Months</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Eligibility</td>
-                                    <td>Final year students or Graduates, All degrees</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Duration</td>
-                                    <td>12 Months</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Daily Effort</td>
-                                    <td>5-7 hours </td>
-                                  </tr>
-                                  <tr>
-                                    <td>Next Batch On</td>
-                                    <td>27th Dec 2022</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                        </div>
-
-                        <div class="cta-buttons text-center">
-                            <button type="button" class="btn btn-outline-primary btn-lg">Brochure</button>
-                            <button type="button" class="btn btn-primary btn-lg">Learn More &gt;</button>
-                        </div>
-                    </div>
-                </div>
+              <div class="cta-buttons text-center">
+                <button type="button" class="btn btn-outline-primary btn-lg">
+                  Brochure
+                </button>
+                <button type="button" class="btn btn-primary btn-lg">
+                  Learn More &gt;
+                </button>
+              </div>
             </div>
+          </div>
+
+          <div class="col-sm-12 col-lg-6">
+            <div class="card card-body">
+              <div class="text-center">
+                <h4 class="text-center">Intermediate</h4>
+                <div class="d-flex justify-content-center">
+                  <span class="bg-warning tags tag-yellow">
+                    Pay After Placement
+                  </span>
+                  <span class="bg-warning tags tag-yellow">
+                    Lifetime Access
+                  </span>
+                </div>
+                <p>For you to start their coding journey from scratch</p>
+              </div>
+
+              <div class="product-table p-5">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Placement Starts</td>
+                      <td>in 4 Months</td>
+                    </tr>
+                    <tr>
+                      <td>Eligibility</td>
+                      <td>Final year students or Graduates, All degrees</td>
+                    </tr>
+                    <tr>
+                      <td>Duration</td>
+                      <td>12 Months</td>
+                    </tr>
+                    <tr>
+                      <td>Daily Effort</td>
+                      <td>5-7 hours</td>
+                    </tr>
+                    <tr>
+                      <td>Next Batch On</td>
+                      <td>27th Dec 2022</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="cta-buttons text-center">
+                <button type="button" class="btn btn-outline-primary btn-lg">
+                  Brochure
+                </button>
+                <button type="button" class="btn btn-primary btn-lg">
+                  Learn More &gt;
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="brands">
-        <div class="container">
-            <div class="text-center">
-                <p>Over 300+ hiring partners</p>
-                <h3>Top Startups & MNC’s Hire
-                    <span class="d-block text-primary">
-                        Software Engineer
-                    </span>
-                </h3>
-                <p>From AccioJob upto 41 Lakhs</p>
-            </div>
-
-            <div class="brand-icons">
-                <div class="row">
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-2">
-                        <img src="./images/Companies/Walmart.png" alt="" class="img-responsive">
-                    </div>
-                </div>
-            </div>
-
-            <div class="d-flex justify-content-center">
-                <a href="#" class="btn btn-secondary btn-lg text-center">Placement Report &gt;</a>
-            </div>
+      <div class="container">
+        <div class="text-center">
+          <p>Over 300+ hiring partners</p>
+          <h3>
+            Top Startups & MNC’s Hire
+            <span class="d-block text-primary"> Software Engineer </span>
+          </h3>
+          <p>From AccioJob upto 41 Lakhs</p>
         </div>
+
+        <!-- <div class="brand-icons">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Walmart.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/amazon.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Bharatpe.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Merask.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Make my Trip.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/paytm.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Thought works.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Tata Digital.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Innovacer.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/freecharge.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Public is sapient.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/HSBC.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Mini Range.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Pay Glocal.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Mystifly.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Converj.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/park+.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Cadence.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+          </div>
+        </div> -->
+
+        <div class="brand-icons mb-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Walmart.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/amazon.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Bharatpe.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Merask.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Make my Trip.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/paytm.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Second row of logos with a bottom gap -->
+        <div class="brand-icons mb-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Thought works.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Tata Digital.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Innovacer.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/freecharge.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Public is sapient.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/HSBC.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Third row of logos with a bottom gap -->
+        <div class="brand-icons mb-4">
+          <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Mini Range.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Pay Glocal.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Mystifly.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Converj.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/park+.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-2">
+              <img
+                src="./images/Companies/Cadence.png"
+                alt=""
+                class="img-responsive"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <a href="#" class="btn btn-secondary btn-lg text-center"
+            >Placement Report &gt;</a
+          >
+        </div>
+      </div>
     </section>
 
-    
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" 
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
